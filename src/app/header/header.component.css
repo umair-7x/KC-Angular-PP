@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: black;
+  color: white;
+}
+.header-container .header-title {
+  font-size: 36px;
+  padding-left: 50px;
+  width: 300px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+.header-container .search-container {
+  width: 40%;
+}

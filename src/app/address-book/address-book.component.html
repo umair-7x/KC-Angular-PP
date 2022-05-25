@@ -1,0 +1,9 @@
+<div class="address-book-container">
+  <div>
+    <app-contact-card
+      *ngFor="let contact of state.contacts"
+      [contact]="contact"
+    >
+    </app-contact-card>
+  </div>
+</div>
